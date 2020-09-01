@@ -1,0 +1,52 @@
+---
+title: "Meeting minutes/notes"
+author: "Alasdair Sykes"
+date: "01/09/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Present
+
+* Bethan Thompson
+* Alasdair Sykes
+
+### Agenda
+
+* Course content
+* Tech stack
+
+### Minutes
+
+* [Data Science in a Box](https://datasciencebox.org) materials adaptable for our purposes
+
+* Estimated time to create/deliver = 10--12 days, 50/50 split Bethan/Alasdair
+
+### Actions
+
+* Alasdair
+  + Liaise with MSc leaders on covering time + costs
+  + Get in touch with RStudio re purchase of RStudio Cloud Education
+  + Research options for managing remote delivery (e.g. Piazza)
+  
+* Bethan
+  + Begin reworking of course materials
+  + ...?
+
+### Notes on tech stack/platform --- Alasdair
+
+* Mine's recommended formula = RStudio Cloud, GitHub, Piazza.
+  + RStudio Cloud for student R instances
+  + GitHub for submissions/etc.
+  + Piazza for student questions etc.
+  
+* Tech stack options/terminology:
+  + RStudio Server (Open Source Edition) = use RStudio on remote Linux server. Free, paid option (Pro) starts @ $4,750.
+  + RStudio Cloud Individual = use RStudio via browser. Free, individual signup, 1GB RAM, 1 CPU, 15 hours/month. Al H tried using this and (apparently) had an issue related to server overload/connectivity. Did he use his own sign-in creds?
+  + RStudio Cloud Education = use RStudio via browser. $15 / month, unlimited projects, shared spaces, 160 project hours/month, up to 8GB RAM / 4 CPUs / project. Need to be education institution OR RStudio Instructor
+  + RStudio Team = installation for data science Teams using RStudio. We're getting this for agrecalc. Includes RStudio Package Manager, RStudio Server Pro, and RStudio Connect. Probably not useful for teaching?
+  
+* RStudio Instructor Training -- $500 + $500 for exam. Ensures RStudio Cloud Education is free.
